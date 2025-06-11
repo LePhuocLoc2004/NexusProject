@@ -1,0 +1,95 @@
+﻿@model DEMO_NEXUSPROJECT.Models.Customer
+
+@{
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Customer List</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a asp-area="employee" asp-controller="DashboardEmployee" asp-action="Index">Home</a></li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;<a asp-area="employee" asp-controller="Customer" asp-action="Add" class="btn btn-primary">Add</a>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Customer List</h3>
+                    </div>
+                    @TempData["Msg1"]
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="customerTable" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Customer ID</th>
+                                    <th>Account Number</th>
+                                    <th>Full Name</th>
+                                    <th>Address</th>
+                                    <th>City Code</th>
+                                    <th>Phone Number</th>
+                                    <th>Email</th>
+                                    <th>Registration Date</th>
+                                    <th>ID Card</th>
+ 
+                                    <th>Photo</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var customer in ViewBag.customers)
+                                {
+                                    <tr>
+                                        <td>@customer.CustomerId</td>
+                                        <td>@customer.AccountNumber</td>
+                                        <td>@customer.FullName</td>
+                                        <td>@customer.Address</td>
+                                        <td>@customer.CityCode</td>
+                                        <td>@customer.PhoneNumber</td>
+                                        <td>@customer.Email</td>
+                                        <td>@(customer.RegistrationDate.ToString("yyyy-MM-dd"))</td>
+                                        <td>@customer.Idcard</td>
+                                        
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(customer.Photo))
+                                            {
+                                                <img src="~/images/@customer.Photo" alt="Customer Photo" class="img-thumbnail" style="width: 120px; height: 100px;" />
+                                            }
+                                            else
+                                            {
+                                                <span>No Photo</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            <a asp-area="employee" asp-controller="CustomerEmployee" asp-action="Edit" asp-route-customerId="@customer.CustomerId" class="btn btn-primary btn-sm">Edit</a>
+                                            <a asp-area="employee" asp-controller="CustomerEmployee" asp-action="Delete" asp-route-customerId="@customer.CustomerId" onclick="return confirm('Are you sure?')" class="btn btn-danger btn-sm">Delete</a>
+                                            <a asp-area="employee" asp-controller="InvoiceEmployee" asp-action="List" asp-route-customerId="@customer.CustomerId" class="btn btn-primary btn-sm">Invoice</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</section>
+<!-- /.content -->

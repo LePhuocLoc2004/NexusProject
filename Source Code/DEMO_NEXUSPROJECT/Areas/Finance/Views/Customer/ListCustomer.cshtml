@@ -1,0 +1,81 @@
+﻿@{
+    Layout = "~/Areas/Finance/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<DEMO_NEXUSPROJECT.Models.Customer >
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoices</title>
+    <link rel="stylesheet" href="~/finance/css/styles.css"> <!-- Replace with your CSS file path -->
+</head>
+<body>
+    <div class="details">
+        <div class="recentOrders">
+            <div class="cardHeader">
+                <h2>Customer List</h2>
+                <form method="get" asp-controller="Customer" asp-action="searchByKeyword">
+                    <div class="search">
+                        <label>
+                            <input type="text" name="keyword" placeholder="Search here">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Account Number</th>
+                        <th>Full Name</th>
+                        <th>Address</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in Model)
+                    {
+                        <tr>
+                            <td>@customer.CustomerId</td>
+                            <td>@customer.AccountNumber</td>
+                            <td>@customer.FullName</td>
+                            <td>@customer.Address</td>
+                            <td>@customer.PhoneNumber</td>
+                            <td>@customer.Email</td>
+                            <td>
+                                
+                                <button type="button" class="btn btn-primary" onclick="location.href='/finance/customer?customerId=@customer.CustomerId';">Xem Khoản Nợ</button>
+
+                                <form asp-action="NotifyOutstandingFees" asp-controller="Customer" method="post">
+                                    <input type="hidden" name="customerId" asp-for="@customer.CustomerId" />
+                                    <input type="hidden" placeholder="Email" asp-for="@customer.Email" />
+                                    <br />
+                                    <input type="submit" value="Gửi Thông Báo" class="btn btn-info" />
+                                </form>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+</body>
+</html>
+
+<script>
+    var message = '@TempData["Msg"]';
+    if (message !== '') {
+        alert(message);
+    }
+</script>
+

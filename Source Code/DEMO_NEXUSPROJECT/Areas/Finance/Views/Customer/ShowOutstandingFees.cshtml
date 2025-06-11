@@ -1,0 +1,81 @@
+﻿@model List<DEMO_NEXUSPROJECT.Models.Invoice>
+
+@{
+    Layout = "~/Areas/Finance/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoices</title>
+    <link rel="stylesheet" href="~/finance/css/styles.css"> <!-- Replace with your CSS file path -->
+</head>
+<body>
+    <div class="details">
+        <div class="recentOrders">
+            <div class="cardHeader">
+                <h2>Customer Outstanding Debts List</h2>
+            </div>
+            @if (Model.Count > 0)
+            {
+                <table class="table" border="1">
+                    <thead>
+                        <tr>
+                            <th>Invoice ID</th>
+                            <th> Amount</th>
+                            <th>Due Date</th>
+                            <th>Status</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var fee in Model)
+                        {
+                            <tr>
+                                <td>@fee.InvoiceId</td>
+                                <td>@fee.Amount.ToString("C")</td> <!-- Format the outstanding amount -->
+                                <td>@fee.IssueDate.ToShortDateString()</td> <!-- Use CreatedDate instead of DueDate -->                             
+                                <td>@fee.Status</td>
+                              
+                            </tr>
+                        }
+                        <tr>
+                            <td><strong>Outstanding Amount</strong></td>
+                            <td><strong>@Model.Sum(f => f.Amount).ToString("C")</strong></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>No outstanding debts for this customer.</p>
+            }
+
+        </div>
+
+</body>
+</html>
+
+@functions {
+    // Define the method to calculate the penalty fee directly in the Razor view
+    decimal CalculatePenaltyFee(decimal amount, DateTime issueDate)
+    {
+        var overdueDays = (DateTime.Now - issueDate).Days - 30;
+        if (overdueDays > 0)
+        {
+            return amount * 0.01m * overdueDays;
+        }
+        return 0;
+    }
+}
+
+<a asp-action="ListCustomer" asp-controller="Customer" class="btn btn-primary">Back to Customer List</a>
+
+

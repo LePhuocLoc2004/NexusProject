@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/employee/test/css/style.css">
+    <title>Login Here</title>
+</head>
+<body>
+    <div class="login-box">
+        <div class="login-header">
+            <header>Login Employee</header>
+        </div>
+        @TempData["Msg"]
+        <form asp-area="employee" asp-controller="LoginEmployee" asp-action="Index" method="post">
+        <div class="input-box">
+                <input type="text" class="input-field" placeholder="Username" name="username" required aria-label="Username">
+        </div>
+        <div class="input-box">
+                <input type="password" class="input-field" placeholder="Password" name="password" required aria-label="Password">
+        </div>
+        <div class="forgot">
+           
+            <section>
+                <a asp-area="employee" asp-controller="LoginEmployee" asp-action="Forgotpassword">Forgot password</a>
+            </section>
+        </div>
+        <div class="input-submit">
+            <button class="submit-btn" id="submit" type="submit"></button>
+            <label for="submit">Sign In</label>
+        </div>
+        </form>
+        @if (ViewBag.Msg != null)
+        {
+            <div class="error-message">@ViewBag.Msg</div>
+        }
+        <div class="sign-up-link">
+            <p>Don't have account? <a asp-area="employee" asp-controller="LoginEmployee" asp-action="Register">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>

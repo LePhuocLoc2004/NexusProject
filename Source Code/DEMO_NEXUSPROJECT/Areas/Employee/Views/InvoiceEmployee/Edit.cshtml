@@ -1,0 +1,64 @@
+﻿@model DEMO_NEXUSPROJECT.Models.Invoice
+
+@{
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Edit Invoice</h3>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title" >Edit Invoice</h3>
+                    </div>
+
+                    <form method="post" asp-area="employee" asp-controller="InvoiceEmployee" asp-action="Edit" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="InvoiceNumber">Invoice Number</label>
+                                <input type="text" class="form-control" asp-for="InvoiceNumber" readonly />
+                            </div>
+                            <div class="form-group">
+                                <label for="CustomerId">Customer Id</label >
+                                <input type="text" class="form-control" asp-for="CustomerId" readonly hidden />
+                            </div>
+                            <div class="form-group">
+                                <label for="Amount">Amount</label>
+                                <input type="text" class="form-control" asp-for="Amount" />
+                            </div>
+                            <div class="form-group">
+                                <label for="IssueDate">Issue Date</label>
+                                <input type="date" class="form-control" asp-for="IssueDate" />
+                            </div>
+                            <div class="form-group">
+                                <label for="PaymentDate">Payment Date</label>
+                                <input type="date" class="form-control" asp-for="PaymentDate" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Status">Status</label>
+                                <select class="form-control" asp-for="Status">
+                                    <option value="true">Active</option>
+                                    <option value="false">Inactive</option>
+                                </select>
+                            </div>
+                          
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--/.col (right) -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->

@@ -1,0 +1,36 @@
+﻿@model DEMO_NEXUSPROJECT.Models.RetailStore;
+<a asp-area="admin" asp-controller="dashboard" asp-action="index">BACK</a>
+<h3>ADD RETAILSTORE</h3>
+@TempData["Msg"]
+<form method="post" asp-area="admin" asp-controller="retailstore" asp-action="add" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>StoreName</td>
+            <td>
+                <input type="text" asp-for="StoreName" />
+            </td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>
+                <input type="text" asp-for="Location" />
+            </td>
+        </tr>
+        <tr>
+            <td>PhoneNumber</td>
+            <td>
+                <textarea cols="20" rows="5" asp-for="PhoneNumber"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <button type="submit">Save</button>
+
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+

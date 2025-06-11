@@ -1,0 +1,109 @@
+﻿@model DEMO_NEXUSPROJECT.Models.Customer
+
+@{
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Add Customer</h1>
+                </div>
+                 @TempData["Msg1"]
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Add Customer</li
+
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-6">
+                    <!-- general form elements -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Customer Information</h3>
+                        </div>
+                       
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form method="post" asp-area="employee" asp-controller="CustomerEmployee" asp-action="Add" enctype="multipart/form-data">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label asp-for="FullName"></label>
+                                    <input type="text" asp-for="FullName" class="form-control" />
+                                   
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Email"></label>
+                                    <input type="email" asp-for="Email" class="form-control" />
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="PhoneNumber"></label>
+                                    <input type="text" asp-for="PhoneNumber" class="form-control" />
+                                   
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Address"></label>
+                                    <input type="text" asp-for="Address" class="form-control" />
+                                   
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="CityCode"></label>
+                                    <input type="text" asp-for="CityCode" class="form-control" />
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="AccountNumber"></label>
+                                    <input type="text" asp-for="AccountNumber" class="form-control" />
+                                   
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Password"></label>
+                                    <input type="password" asp-for="Password" class="form-control" />
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="RegistrationDate"></label>
+                                    <input type="date" asp-for="RegistrationDate" class="form-control" />
+                                   
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Idcard"></label>
+                                    <input type="text" asp-for="Idcard" class="form-control" />
+                                 
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Photo"></label>
+                                    <input type="file" name="file" class="form-control-file" />
+                                
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--/.col (right) -->
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

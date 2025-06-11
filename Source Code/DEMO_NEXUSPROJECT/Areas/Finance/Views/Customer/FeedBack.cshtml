@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "~/Areas/Finance/Views/Shared/_Layout.cshtml";
+}
+
+@using DEMO_NEXUSPROJECT.Models
+@model List<CustomerFeedback>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback</title>
+    <link rel="stylesheet" href="~/finance/css/styles.css"> <!-- Replace with your CSS file path -->
+</head>
+<body>
+    <div class="details">
+        <div class="recentOrders">
+            <div class="cardHeader">
+                <h2>Customer Feedback List</h2>
+                <form method="get" asp-controller="Customer" asp-action="searchByKeywords">
+                    <div class="search">
+                        <label>
+                            <input type="text" name="keyword" placeholder="Search here">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Feedback ID</th>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Feedback Date</th>
+                        <th>Feedback Content</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var feedback in Model)
+                    {
+                        <tr>
+                            <td>@feedback.FeedbackId</td>
+                            <td>@feedback.CustomerId</td>
+                            <td>@feedback.Customer.FullName</td>
+                            <td>@feedback.FeedbackDate.ToShortDateString()</td>
+                            <td>@feedback.Feedback</td>
+                            <td>
+                                <a asp-action="RespondToFeedback" asp-route-id="@feedback.FeedbackId" class="btn btn-success">Respond</a>
+                                <form asp-action="DeleteFeedback" asp-route-id="@feedback.FeedbackId" method="post" onsubmit="return confirm('Are you sure you want to delete this feedback?');" style="display:inline;">
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

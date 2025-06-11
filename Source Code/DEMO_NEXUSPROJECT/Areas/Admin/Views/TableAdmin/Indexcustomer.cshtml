@@ -1,0 +1,158 @@
+﻿
+@model IEnumerable<DEMO_NEXUSPROJECT.Models.ServicePackage>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+
+}
+@{
+    var selectedServicePackage = ViewBag.SelectedServicePackage as DEMO_NEXUSPROJECT.Models.ServicePackage;
+    var servicePackages = ViewBag.ServicePackages as IEnumerable<DEMO_NEXUSPROJECT.Models.ServicePackage>;
+}
+
+<!-- Navbar -->
+<nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl " id="navbarBlur" data-scroll="false">
+    <div class="container-fluid py-1 px-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+                <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Pages</a></li>
+                <li class="breadcrumb-item text-sm text-white active" aria-current="page">Customer Tables</li>
+            </ol>
+            <h6 class="font-weight-bolder text-white mb-0">Customer Tables</h6>
+        </nav>
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+            <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+                <div class="input-group">
+                    
+                </div>
+            </div>
+            <ul class="navbar-nav  justify-content-end">
+                <li class="nav-item d-flex align-items-center">
+                    <a href="javascript:;" class="nav-link text-white font-weight-bold px-0">
+                        <i class="fa fa-user me-sm-1"></i>
+                        <span class="d-sm-inline d-none">LogOut</span>
+                    </a>
+                </li>
+                <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                    <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+                        <div class="sidenav-toggler-inner">
+                            <i class="sidenav-toggler-line bg-white"></i>
+                            <i class="sidenav-toggler-line bg-white"></i>
+                            <i class="sidenav-toggler-line bg-white"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item px-3 d-flex align-items-center">
+                    <a href="javascript:;" class="nav-link text-white p-0">
+                        <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Navbar -->
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+               
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th>ServicePackageId</th>
+                                    <th>ServicePackageName</th>
+                                    <th>ConnectionType</th>
+                                    <th>Price</th>
+                                    <th>Duration</th>
+                                    <th>Details</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var servicePackage in Model)
+                                {
+                                    <tr>
+                                        <td>@servicePackage.ServicePackageId</td>
+                                        <td>@servicePackage.ServicePackageName</td>
+                                        <td>@servicePackage.ConnectionType</td>
+                                        <td>$@servicePackage.Price</td>
+                                        <td>@servicePackage.Duration Day</td>
+                                        <td>@servicePackage.Details</td>
+                                        <td>
+                                            <a href="@Url.Action("Edit", "Table", new { Area = "Admin", servicePackageId = servicePackage.ServicePackageId })" class="btn btn-sm btn-primary">Edit</a>
+                                            <!-- Add delete button or other actions as needed -->
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <div>
+                            <p>Page @ViewBag.CurrentPage of @ViewBag.TotalPages</p>
+                            <div>
+                                @if (ViewBag.CurrentPage > 1)
+                                {
+                                    <a asp-area="admin" asp-controller="table" asp-action="index" asp-route-page="@(ViewBag.CurrentPage - 1)">Previous</a>
+                                }
+                                @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                                {
+                                    <a asp-area="admin" asp-controller="table" asp-action="index" asp-route-page="@(ViewBag.CurrentPage + 1)">Next</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-header pb-0">
+                        <h6>Service Packages</h6>
+                        <button disabled class="btn btn-primary" id="addServicePackageBtn">Add Service Package</button>
+                    </div>
+                    <div id="servicePackageFormContainer">
+                        <form id="servicePackageForm" method="post" asp-area="admin" asp-controller="table" asp-action="addservicepackage" enctype="multipart/form-data">
+                            <input type="hidden" id="ServicePackageId" name="ServicePackageId" value="@selectedServicePackage?.ServicePackageId" />
+                            <div class="mb-3">
+                                <label for="ServicePackageName" class="form-label">Service Package Name</label>
+                                <input type="text" class="form-control" id="ServicePackageName" name="ServicePackageName" value="@selectedServicePackage?.ServicePackageName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="ConnectionType" class="form-label">Connection Type</label>
+                                <input type="text" class="form-control" id="ConnectionType" name="ConnectionType" value="@selectedServicePackage?.ConnectionType" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Details" class="form-label">Details</label>
+                                <textarea class="form-control" id="Details" name="Details" rows="3" required>@selectedServicePackage?.Details</textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Price" class="form-label">Price</label>
+                                <input type="text" class="form-control" id="Price" name="Price" value="@selectedServicePackage?.Price" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Duration" class="form-label">Duration</label>
+                                <input type="text" class="form-control" id="Duration" name="Duration" value="@selectedServicePackage?.Duration" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                            <a class="btn btn-secondary" asp-area="admin" asp-controller="table" asp-action="index">Cancel</a>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+   
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#addServicePackageBtn').click(function (e) {
+                e.preventDefault(); // Prevent the default action (if any)
+                $('#servicePackageFormContainer').slideDown();
+            });
+
+            $('#cancelAdd').click(function () {
+                $('#servicePackageFormContainer').slideUp();
+            });
+        });
+    </script>
+}

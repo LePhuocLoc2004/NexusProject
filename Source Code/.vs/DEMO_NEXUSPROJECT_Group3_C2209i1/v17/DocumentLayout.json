@@ -1,0 +1,904 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\areas\\employee\\views\\loginemployee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\areas\\employee\\views\\loginemployee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.4875\\Finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\financeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\financeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.1551\\DatabaseContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\contactserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\contactserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\servicepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\servicepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.45909\\ServicePackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\connectionsservicesimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\connectionsservicesimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.41075\\ContactMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.36821\\Connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.35771\\Invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\areas\\finance\\views\\financereport\\quarterlyreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\areas\\finance\\views\\financereport\\quarterlyreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\areas\\finance\\views\\financereport\\monthlyreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\areas\\finance\\views\\financereport\\monthlyreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\areas\\finance\\views\\financereport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\areas\\finance\\views\\financereport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\areas\\finance\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\areas\\finance\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\invoiceserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\invoiceserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\accountadminserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\accountadminserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\customerserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\customerserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\accountemployeeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\accountemployeeserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\transactionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\transactionlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\retailstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\retailstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\deviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\deviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\customerservicepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\customerservicepackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\customerfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\customerfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\connectionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\connectionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\models\\connectionpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\models\\connectionpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.34984\\Finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\areas\\admin\\controllers\\retailstoreadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\areas\\admin\\controllers\\retailstoreadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\servicepackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\servicepackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\services\\servicepackageserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\services\\servicepackageserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|d:\\marketing_system\\demo_nexusproject_group3_c2209i1\\demo_nexusproject\\areas\\admin\\controllers\\dashboardadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF68BCEC-6A65-4443-B8C2-99CFCE60DC68}|DEMO_NEXUSPROJECT\\DEMO_NEXUSPROJECT.csproj|solutionrelative:demo_nexusproject\\areas\\admin\\controllers\\dashboardadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\appsettings.json",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\appsettings.json",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\appsettings.json",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-20T09:48:02.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Employee\\Views\\LoginEmployee\\Index.cshtml",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Areas\\Employee\\Views\\LoginEmployee\\Index.cshtml",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Employee\\Views\\LoginEmployee\\Index.cshtml",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Areas\\Employee\\Views\\LoginEmployee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T09:42:40.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Finance.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.4875\\Finance.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.4875\\Finance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:37:19.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.1551\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.1551\\DatabaseContext.cs",
+              "ViewState": "AQIAAL4BAAAAAAAAAAAAAOcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:36:46.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServicePackage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.45909\\ServicePackage.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.45909\\ServicePackage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:35:49.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactServiceImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ContactServiceImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\ContactServiceImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ContactServiceImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\ContactServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAArwBMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:28:53.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\ContactMessage.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\ContactMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:22.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConnectionsServicesImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ConnectionsServicesImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\ConnectionsServicesImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ConnectionsServicesImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\ConnectionsServicesImpl.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAhwCcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:28:30.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServicePackage.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ServicePackage.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\ServicePackage.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ServicePackage.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\ServicePackage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Program.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Program.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Program.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinanceServiceImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\FinanceServiceImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\FinanceServiceImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\FinanceServiceImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\FinanceServiceImpl.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAjwDwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:29:26.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Finance.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Finance.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Finance.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Finance.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Finance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:24:47.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\DatabaseContext.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\DatabaseContext.cs",
+              "ViewState": "AQIAAL4BAAAAAAAAAAAAAOcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:24:33.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.41075\\ContactMessage.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.41075\\ContactMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:35:01.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAhwPEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Connection.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Connection.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Connection.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:25:52.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.36821\\Connection.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.36821\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:34:18.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.35771\\Invoice.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.35771\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:34:08.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuarterlyReport.cshtml",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\QuarterlyReport.cshtml",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\QuarterlyReport.cshtml",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\QuarterlyReport.cshtml",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\QuarterlyReport.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAASwFgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T09:33:45.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MonthlyReport.cshtml",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\MonthlyReport.cshtml",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\MonthlyReport.cshtml",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\MonthlyReport.cshtml",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\MonthlyReport.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAASwFwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T09:33:29.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\Index.cshtml",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\Index.cshtml",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\Index.cshtml",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Views\\FinanceReport\\Index.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAASwFEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T09:33:27.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InvoiceServiceImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\InvoiceServiceImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\InvoiceServiceImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\InvoiceServiceImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\InvoiceServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAArwBYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:29:58.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountAdminServiceImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\AccountAdminServiceImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\AccountAdminServiceImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\AccountAdminServiceImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\AccountAdminServiceImpl.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAhwBsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:29:31.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerServiceImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\CustomerServiceImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\CustomerServiceImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\CustomerServiceImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\CustomerServiceImpl.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAhwEcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:29:01.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Invoice.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Invoice.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:04.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Finance\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Areas\\Finance\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADgvzUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccountEmployeeServiceImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\AccountEmployeeServiceImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\AccountEmployeeServiceImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\AccountEmployeeServiceImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\AccountEmployeeServiceImpl.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAhwCgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:28:07.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Warehouse.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Warehouse.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Warehouse.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Warehouse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:49.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Employee.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Employee.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:24:42.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TransactionLog.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\TransactionLog.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\TransactionLog.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\TransactionLog.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\TransactionLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:42.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Supplier.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Supplier.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Supplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:39.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RetailStore.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\RetailStore.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\RetailStore.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\RetailStore.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\RetailStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:32.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Customer.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Customer.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Customer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wB0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:25.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Product.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Product.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:27.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Payment.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Payment.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:19.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Order.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Order.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:27:13.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Discount.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Discount.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Discount.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Discount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:52.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DeviceOrder.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\DeviceOrder.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\DeviceOrder.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\DeviceOrder.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\DeviceOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:49.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\Device.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\Device.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\Device.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:46.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CustomerServicePackage.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\CustomerServicePackage.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\CustomerServicePackage.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\CustomerServicePackage.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\CustomerServicePackage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:39.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CustomerFeedback.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\CustomerFeedback.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\CustomerFeedback.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\CustomerFeedback.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\CustomerFeedback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:34.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ConnectionRequest.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ConnectionRequest.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\ConnectionRequest.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ConnectionRequest.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\ConnectionRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:15.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ConnectionPackage.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ConnectionPackage.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Models\\ConnectionPackage.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Models\\ConnectionPackage.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Models\\ConnectionPackage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:26:05.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Finance.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.34984\\Finance.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\Rar$DIa21540.34984\\Finance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:25:40.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RetailstoreAdminController.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\RetailstoreAdminController.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\RetailstoreAdminController.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\RetailstoreAdminController.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\RetailstoreAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAIBJwB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Forgetpassword.cshtml",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Views\\Account\\Forgetpassword.cshtml",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Views\\Account\\Forgetpassword.cshtml",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Views\\Account\\Forgetpassword.cshtml",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Views\\Account\\Forgetpassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T09:18:05.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Views\\Contact\\Contact.cshtml",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Views\\Contact\\Contact.cshtml",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Views\\Contact\\Contact.cshtml",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Views\\Contact\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T09:18:05.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ServicePackageService.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ServicePackageService.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\ServicePackageService.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ServicePackageService.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\ServicePackageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ServicePackageServiceImpl.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ServicePackageServiceImpl.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Services\\ServicePackageServiceImpl.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Services\\ServicePackageServiceImpl.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Services\\ServicePackageServiceImpl.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwBoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DashboardAdminController.cs",
+              "DocumentMoniker": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\DashboardAdminController.cs",
+              "RelativeDocumentMoniker": "DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\DashboardAdminController.cs",
+              "ToolTip": "D:\\MARKETING_SYSTEM\\DEMO_NEXUSPROJECT_Group3_C2209i1\\DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\DashboardAdminController.cs",
+              "RelativeToolTip": "DEMO_NEXUSPROJECT\\Areas\\Admin\\Controllers\\DashboardAdminController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIBJwB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:18:05.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

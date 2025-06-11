@@ -1,0 +1,83 @@
+﻿@model DEMO_NEXUSPROJECT.Models.Product
+
+@{
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Product List</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a asp-area="employee" asp-controller="DashboardEmployee" asp-action="Index">Home</a></li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;<a asp-area="employee" asp-controller="Product" asp-action="Add" class="btn btn-primary">Add</a>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Product List</h3>
+                    </div>
+                    @TempData["Msg-1"]
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="customerTable" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Product ID</th>
+                                    <th>Product Name</th>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                    <th>Photo</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var product in ViewBag.products)
+                                {
+                                    <tr>
+                                        <td>@product.ProductId</td>
+                                        <td>@product.ProductName</td>
+                                        <td>@product.Description</td>
+                                        <td>@product.Price</td>
+
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(product.Photo))
+                                            {
+                                                <img src="~/images/@product.Photo" alt="Product Photo" class="img-thumbnail" style="width: 120px; height: 100px;" />
+                                            }
+                                            else
+                                            {
+                                                <span>No Photo</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            <a asp-area="employee" asp-controller="ProductEmployee" asp-action="Edit" asp-route-productId="@product.ProductId" class="btn btn-primary btn-sm">Edit</a>
+                                            <a asp-area="employee" asp-controller="ProductEmployee" asp-action="Delete" asp-route-productId="@product.ProductId" onclick="return confirm('Are you sure?')" class="btn btn-danger btn-sm">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</section>
+<!-- /.content -->

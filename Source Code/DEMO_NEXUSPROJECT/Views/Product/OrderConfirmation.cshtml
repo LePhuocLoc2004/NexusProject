@@ -1,0 +1,29 @@
+﻿<section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Order Confirmation</h2>
+                    <div class="breadcrumb__option">
+                        <a href="/">Home</a>
+                        <span>Order Confirmation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <h2>Order Confirmation</h2>
+    <p>Thank you for your purchase!</p>
+    <p><strong>Transaction ID:</strong> @ViewBag.TransactionID</p>
+    <p><strong>Payer ID:</strong> @ViewBag.PayerID</p>
+    <p><strong>Amount:</strong> $@ViewBag.GrossAmount</p>
+    <p><strong>Payment Date:</strong> @ViewBag.PaymentDate</p>
+    <p><strong>First Name:</strong> @ViewBag.FirstName</p>
+    <p><strong>Last Name:</strong> @ViewBag.LastName</p>
+    <p><strong>Item Name:</strong> @ViewBag.ItemName</p>
+    <p><strong>Item Number:</strong> @ViewBag.ItemNumber</p>
+    <p><strong>Quantity:</strong> @ViewBag.Quantity</p>
+</div>
+

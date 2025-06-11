@@ -1,0 +1,111 @@
+﻿@{
+    Layout = "~/Areas/Finance/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<DEMO_NEXUSPROJECT.Models.Finance >
+
+
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Invoices</title>
+    <link rel="stylesheet" href="~/finance/css/styles.css"> <!-- Link CSS file if needed -->
+    </head>
+    <body>
+    <div class="cardBox">
+        <div class="card">
+            <div>
+                <div class="numbers">@ViewBag.TotalCustomers</div>
+                <div class="cardName">TotalCustomers</div>
+            </div>
+
+            <div class="iconBx">
+                <ion-icon name="eye-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div class="numbers">$@ViewBag.TotalAmountPaid </div>
+                <div class="cardName">Amount Paid</div>
+            </div>
+
+            <div class="iconBx">
+                <ion-icon name="cash-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div class="numbers">$@ViewBag.TotalRemainingAmount</div>
+                <div class="cardName">Remaining Amount</div>
+            </div>
+
+            <div class="iconBx">
+                <ion-icon name="cash-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div class="numbers">$ @ViewBag.TotalAmountSum</div>
+                <div class="cardName">TotalAmount</div>
+            </div>
+
+            <div class="iconBx">
+                <ion-icon name="cash-outline"></ion-icon>
+            </div>
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="recentOrders">
+            <div class="cardHeader">
+                <h2>Finance List</h2>
+                <form method="get" asp-controller="Finance" asp-action="searchByKeyword">
+                    <div class="search">
+                        <label>
+                            <input type="text" name="keyword" placeholder="Search here">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+
+            <table class="table" border="1">
+                <thead>
+                    <tr>
+                        <th>Finance ID</th>
+                        <th>Customer ID</th>                      
+                        <th>Connection ID</th>
+                        <th>FullName</th>
+                        <th>Total Amount</th>
+                        <th>Amount Paid</th>
+                        <th>Remaining Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.FinanceId</td> <!-- Đảm bảo rằng thuộc tính này tồn tại trong lớp Finance -->
+                            <td>@item.CustomerId</td>                          
+                            <td>@item.ConnectionId</td>
+                            <td>@item.Customer.FullName</td>
+                            <td>@item.TotalAmount</td>
+                            <td>@item.AmountPaid</td>
+                            <td>@item.RemainingAmount</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>
+

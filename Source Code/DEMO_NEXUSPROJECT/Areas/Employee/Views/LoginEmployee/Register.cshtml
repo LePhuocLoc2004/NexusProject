@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/test/css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="login-box">
+        <div class="login-header">
+            <header>Register</header>
+        </div>
+
+        @if (ViewData.ModelState.ErrorCount > 0)
+        {
+            <div class="error-messages">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <form asp-area="employee" asp-controller="LoginEmployee" asp-action="Register" method="post" enctype="multipart/form-data">
+            <div class="input-box">
+                <input type="text" class="input-field" name="Username" placeholder="Username" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="email" class="input-field" name="Email" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" name="FullName" placeholder="FullName" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" name="PhoneNumber" placeholder="PhoneNumber" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" name="Password" placeholder="Password" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="file" class="input-field" name="file"  autocomplete="off">
+            </div>
+            <div class="input-box" style="display: none;" hidden>
+                <input type="text" class="input-field" name="Role" value="employee" autocomplete="off" readonly>
+            </div>
+           <div class="input-submit">
+            <button class="submit-btn" id="submit" type="submit"><a style="color:aliceblue">Register</a></button>
+           </div>
+           
+        </form>
+        <div class="sign-up-link">
+            <p><a asp-area="employee" asp-controller="LoginEmployee" asp-action="Index">Sign In</a></p>
+        </div>
+        
+       
+    </div>
+</body>
+</html>

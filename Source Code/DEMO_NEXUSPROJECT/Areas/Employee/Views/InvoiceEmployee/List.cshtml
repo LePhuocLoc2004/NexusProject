@@ -1,0 +1,74 @@
+﻿@model DEMO_NEXUSPROJECT.Models.Invoice
+
+@{
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Invoice List</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a asp-area="employee" asp-controller="DashboardEmployee" asp-action="Index">Home</a></li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Invoice List</h3>
+                    </div>
+                   
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="customerTable" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Invoice Number</th>
+                                    <th>Customer ID</th>
+                                    <th>Amount</th>
+                                    <th>Issue Date</th>
+                                    <th>Payment Date</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var invoice in ViewBag.invoices)
+                                {
+                                    <tr>
+                                        <td>@invoice.InvoiceNumber</td>
+                                        <td>@invoice.CustomerId</td>
+                                        <td>@invoice.Amount</td>
+                                        <td>@invoice.IssueDate</td>
+                                        <td>@invoice.PaymentDate</td>
+                                        <td>@invoice.Status</td>                                    
+                                        <td>
+                                            <a asp-area="employee" asp-controller="InvoiceEmployee" asp-action="Edit" asp-route-invoiceId="@invoice.InvoiceId" class="btn btn-primary btn-sm">Edit</a>
+                                            <a asp-area="employee" asp-controller="InvoiceEmployee" asp-action="Delete" asp-route-invoiceId="@invoice.InvoiceId" onclick="return confirm('Are you sure?')" class="btn btn-danger btn-sm">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</section>
+<!-- /.content -->

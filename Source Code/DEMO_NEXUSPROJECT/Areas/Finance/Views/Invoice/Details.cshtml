@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "~/Areas/Finance/Views/Shared/_Layout.cshtml";
+}
+@using DEMO_NEXUSPROJECT.Models
+@model DEMO_NEXUSPROJECT.Models.Invoice
+
+<div class="details">
+    <div class="recentOrders">
+        <div class="cardHeader">
+            <h2>Thông tin hóa đơn</h2>
+            <table class="table table-bordered table-hover text-center">
+                <tr>
+                    <th>Số hóa đơn</th>
+                    <td>@Model.InvoiceNumber</td>
+                </tr>
+                <tr>
+                    <th>Khách hàng</th>
+                    <td>@Model.Customer.FullName</td>
+                </tr>
+                <tr>
+                    <th>Số tiền</th>
+                    <td>@Model.Amount.ToString("C0")</td>
+                </tr>
+                <tr>
+                    <th>Ngày phát hành</th>
+                    <td>@Model.IssueDate.ToShortDateString()</td>
+                </tr>
+                <tr>
+                    <th>Trạng thái</th>
+                    <td>@Model.Status</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th scope="col">Số tiền</th>
+                    <th scope="col">Ngày thanh toán</th>
+                    <th scope="col">Phương thức thanh toán</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var payment in Model.Payments)
+                {
+                    <tr>
+                        <td>@payment.Amount.ToString("C0")</td>
+                        <td>@payment.PaymentDate.ToShortDateString()</td>
+                        <td>@payment.PaymentMethod</td>
+                    </tr>
+                }
+               
+            </tbody>
+        </table>
+    </div>

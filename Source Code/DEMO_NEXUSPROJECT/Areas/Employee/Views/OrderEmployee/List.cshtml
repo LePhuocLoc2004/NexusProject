@@ -1,0 +1,74 @@
+﻿@model DEMO_NEXUSPROJECT.Models.Order
+
+@{
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Order List</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a asp-area="employee" asp-controller="DashboardEmployee" asp-action="Index">Home</a></li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Order List</h3>
+                    </div>
+                   
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="customerTable" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Order Code</th>
+                                    <th>Customer ID</th>
+                                    <th>Connection Type</th>
+                                    <th>Order Date</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in ViewBag.orders)
+                                {
+                                    <tr>
+                                        <td>@order.OrderId</td>
+                                        <td>@order.OrderCode</td>
+                                        <td>@order.CustomerId</td>
+                                        <td>@order.ConnectionType</td>
+                                        <td>@order.OrderDate</td>
+                                        <td>@order.Status</td>
+                                        <td>
+                                            <a asp-area="employee" asp-controller="OrderEmployee" asp-action="Edit" asp-route-orderID="@order.OrderId" class="btn btn-primary btn-sm">Edit</a>
+                                            <a asp-area="employee" asp-controller="OrderEmployee" asp-action="Delete" asp-route-orderID="@order.OrderId" onclick="return confirm('Are you sure?')" class="btn btn-danger btn-sm">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</section>
+<!-- /.content -->

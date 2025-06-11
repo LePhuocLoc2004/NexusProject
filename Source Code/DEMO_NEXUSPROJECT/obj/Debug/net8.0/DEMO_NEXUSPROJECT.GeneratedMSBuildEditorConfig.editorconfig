@@ -1,0 +1,235 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DEMO_NEXUSPROJECT
+build_property.RootNamespace = DEMO_NEXUSPROJECT
+build_property.ProjectDir = D:\MARKETING_SYSTEM\DEMO_NEXUSPROJECT_Group3_C2209i1\DEMO_NEXUSPROJECT\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\MARKETING_SYSTEM\DEMO_NEXUSPROJECT_Group3_C2209i1\DEMO_NEXUSPROJECT
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/DashboardAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/DashboardAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/LoginAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5BZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/LoginAdmin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5BZG1pblxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/RetailstoreAdmin/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV0YWlsc3RvcmVBZG1pblxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/RetailstoreAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV0YWlsc3RvcmVBZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/TableAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFibGVBZG1pblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Admin/Views/TableAdmin/Indexcustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFibGVBZG1pblxJbmRleGN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/CustomerEmployee/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQ3VzdG9tZXJFbXBsb3llZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/CustomerEmployee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQ3VzdG9tZXJFbXBsb3llZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/CustomerEmployee/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQ3VzdG9tZXJFbXBsb3llZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/DashboardEmployee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGFzaGJvYXJkRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/DashboardEmployee/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGFzaGJvYXJkRW1wbG95ZWVcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/InvoiceEmployee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcSW52b2ljZUVtcGxveWVlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/InvoiceEmployee/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcSW52b2ljZUVtcGxveWVlXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/LoginEmployee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcTG9naW5FbXBsb3llZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/LoginEmployee/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcTG9naW5FbXBsb3llZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/OrderEmployee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcT3JkZXJFbXBsb3llZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/OrderEmployee/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcT3JkZXJFbXBsb3llZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/ProductEmployee/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdEVtcGxveWVlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/ProductEmployee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdEVtcGxveWVlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/ProductEmployee/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdEVtcGxveWVlXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Employee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Customer/FeedBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xDdXN0b21lclxGZWVkQmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Customer/ListCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xDdXN0b21lclxMaXN0Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Customer/ShowOutstandingFees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xDdXN0b21lclxTaG93T3V0c3RhbmRpbmdGZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xFbXBsb3llZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Employee/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xFbXBsb3llZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/FinanceReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xGaW5hbmNlUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/FinanceReport/MonthlyReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xGaW5hbmNlUmVwb3J0XE1vbnRobHlSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/FinanceReport/QuarterlyReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xGaW5hbmNlUmVwb3J0XFF1YXJ0ZXJseVJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Finance/FinanceDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xGaW5hbmNlXEZpbmFuY2VEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Finance/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xGaW5hbmNlXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Invoice/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xJbnZvaWNlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Invoice/Invoices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xJbnZvaWNlXEludm9pY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Areas/Finance/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRmluYW5jZVxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/Detailsinvoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzaW52b2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/DetailsTransactionLog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzVHJhbnNhY3Rpb25Mb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/Forgetpassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRwYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/LoginRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/Message2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNZXNzYWdlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Account/Resetpassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldHBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Contact/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Product/Buy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxCdXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Product/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Product/OrderConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxPcmRlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Product/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MARKETING_SYSTEM/DEMO_NEXUSPROJECT_Group3_C2209i1/DEMO_NEXUSPROJECT/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

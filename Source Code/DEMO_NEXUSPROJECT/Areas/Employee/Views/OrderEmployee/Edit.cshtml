@@ -1,0 +1,75 @@
+﻿@model DEMO_NEXUSPROJECT.Models.Order
+
+@{
+    Layout = "~/Areas/Employee/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Edit Order</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a asp-area="employee" asp-controller="DashboardEmployee" asp-action="Index">Home</a></li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title" >Edit Order</h3>
+                    </div>
+
+                    <form method="post" asp-area="employee" asp-controller="OrderEmployee" asp-action="Edit" enctype="multipart/form-data">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="OrderCode">Order Code</label>
+                                <input type="text" class="form-control" asp-for="OrderCode" />
+                            </div>
+                            <div class="form-group">
+                                <label for="ConnectionType">Connection Type</label>
+                                
+                                <select class="form-control" asp-for="ConnectionType">
+                                    <option value="D">Dial-Up</option>
+                                    <option value="B">Băng thông rộng</option>
+                                    <option value="T">Điện thoại cố định</option>
+                                </select>
+                            </div>
+                          
+                            <div class="form-group">
+                                <label for="OrderDate">OrderDate</label>
+                                <input type="date" class="form-control" asp-for="OrderDate" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Status">Status</label>
+                                <select class="form-control" asp-for="Status">
+                                    <option value="true">Active</option>
+                                    <option value="false">Inactive</option>
+                                </select>
+                            </div>
+                          
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--/.col (right) -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->

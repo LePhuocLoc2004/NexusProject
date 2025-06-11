@@ -1,0 +1,109 @@
+﻿@model IEnumerable<DEMO_NEXUSPROJECT.Models.Invoice>
+@{
+    Layout = "~/Areas/Finance/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Financial Report";
+
+    // Lấy thông tin từ ViewBag hoặc Model nếu cần
+    var totalInvoices = Model.Count();
+    var totalPaidInvoices = Model.Count(i => i.PaymentDate != null);
+}
+
+
+
+
+<div class="details">
+    <div class="recentOrders">
+       
+        <div class="cardHeader">
+            <button type="button" class="btn btn-primary" onclick="location.href='/FinanceReport/Index';">Yearly Report</button>
+            <button type="button" class="btn btn-primary" onclick="location.href='/FinanceReport/MonthlyReport';">Monthly Report</button>
+            <button type="button" class="btn btn-primary" onclick="location.href='/FinanceReport/QuarterlyReport';">Quarterly Report</button><br /><br />
+        </div>
+        <div class="cardHeader">
+            <form asp-action="SelectQuarter" method="post">
+                <div class="form-group">
+                    <input type="hidden" class="form-control" id="year" name="year" value="@DateTime.Now.Year">
+                </div>
+                <div class="form-group">
+                    <label for="quarter">Quarter:</label>
+                    <select class="form-control" id="quarter" name="quarter">
+                        <option value="1">Q1</option>
+                        <option value="2">Q2</option>
+                        <option value="3">Q3</option>
+                        <option value="4">Q4</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-block">Select Quarter</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="cardHeader">
+            <h2>Financial Report</h2>
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <th>Report for Year and Quarter</th>
+                    <td>@ViewBag.Year - Quarter @ViewBag.Quarter</td>
+                </tr>
+                <tr>
+                    <th>Total Invoices</th>
+                    <td>@totalInvoices</td>
+                </tr>
+                <tr>
+                    <th>Total Paid Invoices</th>
+                    <td>@totalPaidInvoices</td>
+                </tr>
+                <tr>
+                    <th>Total Unpaid Invoices</th>
+                    <td>@(totalInvoices - totalPaidInvoices)</td>
+                </tr>
+                <tr>
+                    <th>Total Invoices:</th>
+                    <td>@Model.Sum(i => i.Amount)</td>
+                </tr>
+                <tr>
+                    <th>Total Payments:</th>
+                    <td>@ViewBag.TotalPayments</td>
+                </tr>
+            </table>
+        </div>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Invoice Number</th>
+                    <th>Customer ID</th>
+                    <th>Customer Name</th>
+                    <th>Issue Date</th>
+                    <th>Payment Date</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var invoice in Model)
+                {
+                    <tr>
+                        <td>@invoice.InvoiceNumber</td>
+                        <td>@invoice.CustomerId</td>
+                        <td>@invoice.Customer.FullName</td>
+                        <td>@invoice.IssueDate.ToString("dd/MM/yyyy")</td>
+                        <td>@(invoice.PaymentDate.HasValue ? invoice.PaymentDate.Value.ToString("dd/MM/yyyy") : "")</td>
+                        <td>@invoice.Amount</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div>
+            <p>Page @ViewBag.CurrentPage of @ViewBag.TotalPages</p>
+            <div>
+                @if (ViewBag.CurrentPage > 1)
+                {
+                    <a asp-area="finance" asp-controller="financeReport" asp-action="QuarterlyReport" asp-route-page="@(ViewBag.CurrentPage - 1)">Previous</a>
+                }
+                @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                {
+                    <a asp-area="finance" asp-controller="financeReport" asp-action="MonthlyReport" asp-route-page="@(ViewBag.CurrentPage + 1)">Next</a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
