@@ -1,3 +1,7 @@
+An e-commerce web application developed using ASP.NET and SQL Server, 
+featuring user management, product management, order processing, 
+and PayPal online payment integration.
+
 🚀 Nexus Project – Tech Stack
 
 🔹 1. Programming Languages
